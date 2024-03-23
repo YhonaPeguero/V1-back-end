@@ -9,6 +9,8 @@
     - [Requisitos Previos](#requisitos-previos)
     - [Pasos para la Configuración](#pasos-para-la-configuración)
     - [Ejecución de la Aplicación](#ejecución-de-la-aplicación)
+    - [Configuración con Intellij IDEA :](#configuración-con-intellij-idea-)
+  - [](#)
   - [Construido con:](#construido-con)
   - [Funcionalidades Clave](#funcionalidades-clave)
 
@@ -44,9 +46,38 @@ cd V1-back-end
 
 ### Ejecución de la Aplicación
 
-#### Configuración con Intellij IDEA :
+### Configuración con Intellij IDEA :
 
-![](./src/assets/img/image1.webp)
+En la esquina superior derecha, haz clic en la opción disponible (puede aparecer como "Main", "Unnamed", entre otros nombres).
+
+A continuación, selecciona "Edit configurations". 
+IMG DE REFERENCIA:
+
+![Imagen de referencia](./src/img/image1.webp)
+
+Hacer Clic en el signo de mas:
+
+![Imagen de referencia](./src/img/2.webp)
+
+Luego en Application :
+
+![Imagen de referencia](./src/img/3.webp)
+
+Después de crear dos aplicaciones, procedemos con la configuración de las mismas:
+
+Para ambas aplicaciones, se debe especificar la versión de Java como 1.8.0 y establecer el "Class name" a: org.example.Main.
+
+En el campo "Main Class", ingresa: org.example.Main.
+
+En "Program arguments", introduce los siguientes valores:
+
+Para la primera aplicación, usa: person.txt.
+
+Para la segunda aplicación, que llamaremos "API", utiliza en "Program arguments": server.
+
+![Imagen de referencia](./src/img/4.webp)
+---
+Una vez completadas estas configuraciones, puedes proceder a realizar pruebas tanto de la API, consumiéndola desde el front-end a través de la interfaz de usuario, como de la aplicación de línea de comandos (CLI). Esta última te permitirá ejecutar el programa de manera local. Esta flexibilidad facilita el desarrollo y la integración, permitiéndote validar el funcionamiento de ambas aplicaciones en un entorno de desarrollo
 
 Una vez configurado el proyecto, puedes compilar y empaquetar la aplicación con el siguiente comando Maven:
 

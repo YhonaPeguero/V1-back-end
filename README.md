@@ -88,10 +88,10 @@ mvn clean package
 Para ejecutar la aplicación y analizar un archivo de clase Java, usa:
 
 ```bash
-java -jar target/backend-1.0-SNAPSHOT.jar path/a/Person.txt
+java -jar target/backend-1.0-SNAPSHOT.jar person.txt
 ```
 
-Reemplaza `path/a/Person.txt` con la ruta al archivo de texto que contiene la definición de la clase Java que deseas analizar.
+Reemplaza `person.txt` con la ruta al archivo de texto que contiene la definición de la clase Java que deseas analizar.
 
 ## Construido con:
 

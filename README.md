@@ -31,18 +31,22 @@ Antes de ejecutar esta aplicación, asegúrate de tener instalados los siguiente
 1. Clona el repositorio del proyecto backend en tu máquina local usando:
 
 ```bash
-git clone https://github.com/YhonaPeguero/back-end
+git clone https://github.com/YhonaPeguero/V1-back-end
 ```
 
 2. Navega al directorio del proyecto:
 
 ```bash
-cd directorio-del-backend
+cd V1-back-end
 ```
 
 3. Asegúrate de que la configuración de tu IDE apunte a la versión correcta del JDK (1.8.0) y Maven (3.8.5).
 
 ### Ejecución de la Aplicación
+
+#### Configuración con Intellij IDEA :
+
+![](./src/assets/img/image1.webp)
 
 Una vez configurado el proyecto, puedes compilar y empaquetar la aplicación con el siguiente comando Maven:
 
